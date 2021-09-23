@@ -3,28 +3,28 @@ import Particles from "react-particles-js";
 
 function ParticleBg() {
   return (
-    <div style={{ maxHeight:"90vh", overflow:"hidden" }} className="m-0 p-0">
+    <div style={{ height:"100vh", overflow:"hidden", width: "100vw" }} className="m-0 p-0 fixed top-0">
       <Particles
         params={{
           particles: {
             number: {
-              value: 120,
+              value: 50,
               density: {
                 enable: true,
                 value_area: 640,
               },
             },
             color: {
-              value: "#ffdf00",
+              value: "#ffffff",
             },
             shape: {
               type: "circle",
               stroke: {
                 width: 2,
-                color: "#faa41a",
+                color: "#fff",
               },
               polygon: {
-                nb_sides: 8,
+                nb_sides: 2,
               },
               image: {
                 src: "",
@@ -54,8 +54,8 @@ function ParticleBg() {
             },
             line_linked: {
               enable: true,
-              distance: 189.40440207397828,
-              color: "#faa41a",
+              distance: 190,
+              color: "#fff",
               opacity: 1,
               width: 1,
             },

@@ -7,8 +7,11 @@ module.exports = {
       colors: {
         "dark-main": "#212121",
         "dark-sub": "#37474F",
-        "light-main": "#FFFFFF",
+        "light-main": "#FF8303",
         "light-sub": "#DEE4E7",
+      },
+      height: {
+        nav: "95.8%",
       },
       fontFamily: {
         poppins: ["Poppins", ...defaultTheme.fontFamily.sans],
