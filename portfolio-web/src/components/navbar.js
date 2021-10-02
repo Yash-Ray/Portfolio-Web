@@ -2,8 +2,8 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="text-black-900 p-4 bg-light-main rounded-full shadow opacity-100 relative top-4 z-50 w-20 h-nav flex items-center mx-4">
-      <div className="container mx-auto text-2xl mb-1 italic">Yash Ray</div>
+    <div className='top-0 sticky z-50 p-2 m-0 flex'>
+      <div style={{ fontFamily:'Lato', fontWeight:"300"}} className='text-4xl text-dark-main p-2 m-2 tracking-wide'>YR</div>
     </div>
   );
 }
