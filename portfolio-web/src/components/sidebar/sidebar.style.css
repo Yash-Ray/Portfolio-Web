@@ -1,0 +1,12 @@
+.sidebar-left {
+    position: absolute;
+    z-index: 999;
+    top: 0%;
+    right: 0%;
+    background: #111111;
+    padding:  100px 20px;
+    width: 400px;
+    min-width: fit-content;
+    max-width: 90vw;
+    height: 100vh;
+}

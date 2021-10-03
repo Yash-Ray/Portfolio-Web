@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         "dark-main": "#1A1A1A",
         "dark-sub": "#37474F",
-        "light-main": "#FF8303",
+        "light-main": "#E0E0E0",
         "light-sub": "#DEE4E7",
       },
       height: {
