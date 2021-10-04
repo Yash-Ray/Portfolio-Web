@@ -10,3 +10,13 @@
     max-width: 90vw;
     height: 100vh;
 }
+
+/* #home {
+    transition: 0.5s all ease-in-out;
+}
+#home:hover {
+    transition: 0.5s all ease-in-out;
+    background: linear-gradient(to right, #ff6700, #ffa500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */

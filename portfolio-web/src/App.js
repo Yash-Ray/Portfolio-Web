@@ -8,7 +8,7 @@ import gsap from "gsap";
 class App extends Component {
   componentDidMount() {
     var tl = gsap.timeline({ dafault: { ease: "power1.out" } });
-    tl.to("#page-loader", { y: "-105vh", duration: 1, delay: 3 });
+    tl.to("#page-loader", { y: "-105vh", duration: 1, delay: 1.8 });
   }
 
   render() {
