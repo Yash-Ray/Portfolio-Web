@@ -11,17 +11,17 @@ export const Sidebar = () => (
   <div className="sidebar-left text-light-sub p-20 pt-60 flex flex-col justify-between items-start">
     <div className="w-full">
       <Link to="/">
-        <div className="element-sidebar w-4/5 p-2 px-4 sm:p-4 my-6 mx-auto flex flex-row items-center hover:text-yellow-600 transition duration-700 ease-in-out text-base sm:text-lg">
-          <FaHome className="mr-2" /> <span id="home">HOME</span>
+        <div className="element-sidebar w-4/5 p-2 px-4 sm:p-4 my-6 mx-auto flex flex-row items-center hover:text-orange-mid transition duration-700 ease-in-out text-base sm:text-lg">
+          <FaHome className="mr-2" /> HOME
         </div>
       </Link>
       <Link to="/education">
-        <div className="element-sidebar w-4/5 p-2 px-4 sm:p-4 my-6 mx-auto flex flex-row items-center hover:text-green-600 transition duration-700 ease-in-out text-base sm:text-lg">
+        <div className="element-sidebar w-4/5 p-2 px-4 sm:p-4 my-6 mx-auto flex flex-row items-center hover:text-blue-mid transition duration-700 ease-in-out text-base sm:text-lg">
           <FaGraduationCap className="mr-2 text-xl" /> EDUCATION
         </div>
       </Link>
       <Link to="/projects">
-        <div className="element-sidebar w-4/5 p-2 px-4 sm:p-4 my-6 mx-auto flex flex-row items-center hover:text-pink-500 transition duration-700 ease-in-out text-base sm:text-lg">
+        <div className="element-sidebar w-4/5 p-2 px-4 sm:p-4 my-6 mx-auto flex flex-row items-center hover:text-green-dark transition duration-700 ease-in-out text-base sm:text-lg">
           <AiFillProject className="mr-2" /> PROJECTS
         </div>
       </Link>
@@ -32,7 +32,7 @@ export const Sidebar = () => (
         rel="noreferrer"
         href="https://github.com/Yash-Ray/Portfolio-Web"
       >
-        <div className="element-sidebar w-1/5 p-4 my-6 mx-auto flex flex-row items-center hover:text-blue-700 transition duration-700 ease-in-out justify-center text-2xl">
+        <div className="element-sidebar w-1/5 p-4 my-6 mx-auto flex flex-row items-center hover:text-pink-dark transition duration-700 ease-in-out justify-center text-2xl">
           <BsGithub />
         </div>
       </a>
