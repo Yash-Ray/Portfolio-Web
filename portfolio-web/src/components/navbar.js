@@ -9,13 +9,13 @@ function Navbar({ color }) {
       <Link to="/">
         <div
           style={{ fontFamily: "Lato", fontWeight: "300" }}
-          className={`text-4xl text-light-sub transition duration-700 ease-in-out hover:${color} p-2 m-2 tracking-wide`}
+          className={`text-4xl text-light-sub transition duration-700 ease-in-out hover:text-${color} p-2 m-2 tracking-wide`}
         >
           YR
         </div>
       </Link>
       <div>
-        <Hamburger />
+        <Hamburger color={color} />
       </div>
     </div>
   );

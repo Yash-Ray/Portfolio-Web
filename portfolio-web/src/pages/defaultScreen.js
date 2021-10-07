@@ -12,11 +12,11 @@ function DefaultScreen() {
   return (
     <div className="m-0 h-screen relative z-0 top-0 bg-dark-main overflow-hidden">
       {location.pathname === "/" ? (
-        <Navbar color="text-orange-mid" />
+        <Navbar color="orange-mid" />
       ) : location.pathname === "/education" ? (
-        <Navbar color="text-blue-mid" />
+        <Navbar color="blue-mid" />
       ) : location.pathname === "/projects" ? (
-        <Navbar color="text-green-dark" />
+        <Navbar color="green-dark" />
       ) : (
         <Navbar color="#DEE4E7" />
       )}

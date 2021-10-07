@@ -2,7 +2,7 @@ import React from "react";
 import "./hamburger.style.css";
 import { Sidebar } from "../sidebar/sidebar.component";
 
-export const Hamburger = () => (
+export const Hamburger = ({color}) => (
   <div
     className="outer-ham"
     onClick={() => {

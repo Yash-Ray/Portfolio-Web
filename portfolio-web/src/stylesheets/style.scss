@@ -3,10 +3,15 @@ $primary-dark : #1a1a1a;
 .element-sidebar {
     border-radius: 20px;
     background: $primary-dark;
-    box-shadow: inset 5px 5px 13px #141414,
-                inset -5px -5px 13px #202020;
+    box-shadow: inset 3px 3px 10px #141414,
+                inset -3px -3px 10px #202020;
     font-family: 'Nunito Sans', sans-serif;
     color: grey;
+}
+.neumorphic {
+    box-shadow: 3px 3px 10px #141414,
+                -3px -3px 10px #202020;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 
