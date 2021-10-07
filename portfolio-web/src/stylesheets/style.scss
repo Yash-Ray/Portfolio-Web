@@ -13,7 +13,22 @@ $primary-dark : #1a1a1a;
                 -3px -3px 10px #202020;
     font-family: 'Nunito Sans', sans-serif;
 }
-
+.anim-txt {
+    height: 3rem;
+    position: unset;
+    transform: translateY(-100%);
+    // transform: translateX(-100%);
+}
+.hello {
+    position: absolute;
+    overflow: hidden;
+    font-size: 3rem;
+    
+    .text, .text2, .text3, .text4 {
+        font-size: 3rem;
+        transform: translateY(100%);
+    }
+}
 
 // orange-dark : #BC210F
 // orange-mid : #EC4913
