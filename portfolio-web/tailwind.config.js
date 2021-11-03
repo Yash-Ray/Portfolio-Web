@@ -19,6 +19,12 @@ module.exports = {
         "blue-mid": "#01BAEF",
         "blue-light": "#10A7FA",
         "pink-dark": "#EF3054",
+        "wa-green":"#25D366",
+        "sc-yellow":"#FFFC00",
+        "ig-purple":"#833AB4",
+        "ig-pred":"#E1306C",
+        "mail-red":"#BB0010",
+        "ln-blue":"#0072b1",
       },
       height: {
         nav: "95.8%",

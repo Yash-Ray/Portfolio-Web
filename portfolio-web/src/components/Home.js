@@ -1,11 +1,12 @@
 import React, { Fragment, useEffect, useState } from "react";
-import dp from "../assets/YashRay.jpg";
+import dp from "../assets/YashRay.png";
 import gsap from "gsap";
 import "../stylesheets/style.scss";
-import { FaPhoneAlt, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-import { GrMail } from "react-icons/gr";
+import { FaWhatsapp, FaGithub, FaLinkedin, FaInstagram, FaSnapchatGhost } from "react-icons/fa";
 import { Dialog, Transition } from "@headlessui/react";
 import { CgClose } from "react-icons/cg";
+import { FiMail } from "react-icons/fi";
+import sc from "../assets/sc_id.png";
 
 function Home() {
   useEffect(() => {
@@ -16,10 +17,6 @@ function Home() {
     tl.to(".text2", { y: "-100%", duration: 0.5, delay: 3 });
     tl.to(".text3", { y: "0%", duration: 0.5, delay: 0.1 });
     tl.to(".text3", { y: "-100%", duration: 0.5, delay: 3 });
-    tl.to(".text4", { y: "0%", duration: 0.5, delay: 0.1 });
-    tl.to(".text4", { y: "-100%", duration: 0.5, delay: 3 });
-    tl.to(".text5", { y: "0%", duration: 0.5, delay: 0.1 });
-    tl.to(".text5", { y: "-100%", duration: 0.5, delay: 3 });
   });
 
   let [isOpen, setIsOpen] = useState(false);
@@ -33,7 +30,7 @@ function Home() {
 
   return (
     <>
-      <div className="text-white m-2 sm:m-4 lg:m-6">
+      <div className="text-white m-2 sm:m-4 lg:m-6 z-10">
         <div className="neumorphic rounded-lg p-4 h-full flex flex-col-reverse md:flex-row justify-center items-start">
           <div className="mx-2 flex flex-col justify-center w-full h-full md:w-2/3 text-center md:text-left py-8">
             <div className="anim-txt w-1/4 hidden sm:block py-6">
@@ -46,52 +43,67 @@ function Home() {
               <div className="hello">
                 <div className="text3 pr-6">Bonjour</div>
               </div>
-              <div className="hello">
-                <div className="text4 pr-6">Hola</div>
-              </div>
-              <div className="hello">
-                <div className="text5 pr-6">Ciao</div>
-              </div>
             </div>
-            <div className="intro-content w-full break-words text-xl">
+            <div className="text-center sm:text-left w-full break-words text-base sm:text-lg lg:text-xl">
               I'm Yash Ray, Computer Science and Engineering junior at Vellore
-              Institure of Technology, Vellore.
+              Institure of Technology, Vellore. 
             </div>
           </div>
           {/* profile card here */}
-          <div className="m-2 flex justify-center w-80 md:w-1/3">
-            <div className="neumorphic w-80 py-4 flex flex-col justify-center rounded-md items-center px-4 md:px-0">
-              <div className="h-60 w-60 mx-4 md:mx-0">
+          <div className="m-2 flex justify-center mx-auto w-1/3 md:w-1/3">
+            <div className="neumorphic py-4 flex flex-col justify-center rounded-md items-center px-0 sm:px-4">
+              <div className="h-60 w-60 mx-4 flex justify-center md:mx-0">
                 <img
-                  className="rounded-md h-full w-full"
+                  className="rounded-md h-full"
                   src={dp}
                   alt="profile-card-dp"
                 />
               </div>
-              <div className="p-2 flex flex-wrap sm:p-4 lg:p-6">
-                <div className="w-full mt-4 sm:mt-0 flex flex-row justify-center items-center text-xs sm:text-base md:text-lg text-light-main">
-                  <FaPhoneAlt className="text-xs sm:text-base md:text-lg mx-2" />
-                  +91 8210112958
-                </div>
-                <div className="w-full mt-4 sm:mt-0 flex flex-row justify-center items-center text-xs sm:text-base md:text-lg text-light-main">
-                  <GrMail className="text-xs sm:text-base md:text-lg mx-2" />
-                  ray.yash.08@gmail.com
-                </div>
-              </div>
               <div className="mt-0 sm:mt-2 w-full flex flex-col px-2">
-                <div className="text-light-main text-xs w-full text-center sm:text-base md:text-lg">
-                  My Socials:
-                </div>
-                {/* flex not working below */}
-                <div className="flex flex-row flex-wrap w-full justify-around items-center">
+                <div className="flex flex-col w-full justify-around items-center">
+                  {/* 1st div starts */}
+                  <div className='w-full flex flex-row justify-around'>
                   <a
-                    href="https://github.com/Yash-Ray"
+                    href="https://api.whatsapp.com/send?phone=918210112958"
                     target="_blank"
                     rel="noreferrer"
                     alt="git-acc"
                   >
-                    <div className="  p-2 m-2 md:m-4 hover:text-orange-mid transition duration-700 ease-in-out text-base sm:text-lg">
-                      <FaGithub className="text-base sm:text-lg lg:text-3xl" />
+                    <div className="p-2 m-2 md:m-4 hover:text-wa-green transition duration-700 ease-in-out text-base sm:text-lg">
+                      <FaWhatsapp className="text-2xl lg:text-3xl" />
+                    </div>
+                  </a>
+                  <a
+                    href="mailto:ray.yash.08@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    alt="git-acc"
+                  >
+                    <div className="p-2 m-2 md:m-4 hover:text-mail-red transition duration-700 ease-in-out text-base sm:text-lg">
+                      <FiMail className="text-2xl lg:text-3xl" />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/yash-ray-cri80vt/"
+                    target="_blank"
+                    rel="noreferrer"
+                    alt="git-acc"
+                  >
+                    <div className="p-2 m-2 md:m-4 hover:text-ln-blue transition duration-700 ease-in-out text-base sm:text-lg">
+                      <FaLinkedin className="text-2xl lg:text-3xl" />
+                    </div>
+                  </a>
+                  </div>
+                  {/* 2nd div starts */}
+                  <div className='w-full flex flex-row justify-around'>
+                  <a
+                    href="https://www.instagram.com/yashray_08/"
+                    target="_blank"
+                    rel="noreferrer"
+                    alt="git-acc"
+                  >
+                    <div className="p-2 m-2 md:m-4 hover:text-ig-purple transition duration-700 ease-in-out text-base sm:text-lg">
+                      <FaInstagram className="text-2xl lg:text-3xl" />
                     </div>
                   </a>
                   <a
@@ -100,38 +112,19 @@ function Home() {
                     rel="noreferrer"
                     alt="git-acc"
                   >
-                    <div className="  p-2 m-2 md:m-4 hover:text-orange-mid transition duration-700 ease-in-out text-base sm:text-lg">
-                      <FaLinkedin className="text-base sm:text-lg lg:text-3xl" />
+                    <div className="p-2 m-2 md:m-4 hover:text-pink-500 transition duration-700 ease-in-out text-base sm:text-lg">
+                      <FaGithub className="text-2xl lg:text-3xl" />
                     </div>
                   </a>
-                  <a
-                    href="https://github.com/Yash-Ray"
-                    target="_blank"
-                    rel="noreferrer"
-                    alt="git-acc"
-                  >
-                    <div className="  p-2 m-2 md:m-4 hover:text-orange-mid transition duration-700 ease-in-out text-base sm:text-lg">
-                      <FaInstagram className="text-base sm:text-lg lg:text-3xl" />
-                    </div>
-                  </a>
-                  <a
-                    href="https://github.com/Yash-Ray"
-                    target="_blank"
-                    rel="noreferrer"
-                    alt="git-acc"
-                  >
-                    <div className="  p-2 m-2 md:m-4 hover:text-orange-mid transition duration-700 ease-in-out text-base sm:text-lg">
-                      <FaInstagram className="text-base sm:text-lg lg:text-3xl" />
-                    </div>
-                  </a>
+                  <a className=''>
                   <div
                     onClick={openModal}
-                    className="cursor-pointer p-2 m-2 md:m-4 hover:text-orange-mid transition duration-700 ease-in-out text-base sm:text-lg"
+                    className="cursor-pointer p-2 m-2 md:m-4 hover:text-sc-yellow transition duration-700 ease-in-out text-lg"
                   >
-                    <FaInstagram className="text-base sm:text-lg lg:text-3xl" />
+                    <FaSnapchatGhost className="text-2xl lg:text-3xl" />
                   </div>
-                  {/* <div className=" p-2 m-2 md:m-4">In</div>
-                <div className=" p-2 m-2 md:m-4">In</div> */}
+                  </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -174,31 +167,30 @@ function Home() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div className="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-md">
+              <div className="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-light-sub shadow-xl rounded-md">
                 <div className="flex flex-row justify-between">
                   <Dialog.Title
                     as="h3"
                     className="text-2xl text-gray-dark font-medium leading-9"
                   >
-                    Sample
+                    Snapcode
                   </Dialog.Title>
                   <button
                     aria-label="close button"
-                    className="text-2xl text-gray-dark hover:text-red transition-all duration-300 ease-in-out"
+                    className="text-2xl focus:outline-none hover:text-orange-mid text-gray-500 transition-all duration-00 ease-in-out"
                     onClick={closeModal}
                   >
                     <CgClose />
                   </button>
                 </div>
-                <div className="mt-2">
-                  <p className="text-sm text-gray-500">content</p>
-                  <p className="w-100 text-center text-sm">Sample</p>
+                <div className="mt-2 flex justify-center">
+                  <img src={sc} alt='scId' className='h-72' />
                 </div>
 
                 <div className="mt-4 flex justify-center">
                   <button
                     type="button"
-                    className="inline-flex text-base justify-center px-10 py-2 font-medium transition-all duration-500 ease-in-out border-red text-red bg-transparent border border-orannge rounded-md hover:bg-red hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
+                    className="flex justify-center items-center text-lg px-10 py-2 font-medium transition-all duration-500 ease-in-out border-dark-main bg-transparent border-2 border-orannge rounded-xl hover:border-orange-mid hover:text-orange-mid focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
                     onClick={closeModal}
                   >
                     Close

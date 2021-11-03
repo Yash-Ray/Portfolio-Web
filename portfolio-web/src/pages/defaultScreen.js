@@ -10,7 +10,7 @@ function DefaultScreen() {
   const location = useLocation();
 
   return (
-    <div className="m-0 h-screen relative z-0 top-0 bg-dark-main overflow-hidden">
+    <div className="m-0 h-screen relative z-0 top-0 bg-dark-main overflow-x-hidden">
       {location.pathname === "/" ? (
         <Navbar color="orange-mid" />
       ) : location.pathname === "/education" ? (
