@@ -3,9 +3,8 @@ import { Hamburger } from "../components/hamburger/hamburger.component";
 import { Link } from "react-router-dom";
 
 function Navbar({ color }) {
-  // const shade = color;
   return (
-    <div className="top-0 sticky z-50 p-2 m-0 flex justify-between">
+    <div className="top-0 sticky z-50 p-2 m-0 flex justify-between bg-dark-main">
       <Link to="/">
         <div
           style={{ fontFamily: "Lato", fontWeight: "300" }}

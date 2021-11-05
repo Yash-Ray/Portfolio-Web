@@ -1,0 +1,92 @@
+export const stack = [
+  {
+    id: 1,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    id: 2,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    id: 3,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    id: 4,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    id: 5,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    id: 6,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    id: 7,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    id: 8,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    id: 9,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    id: 10,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    id: 11,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    id: 12,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    id: 13,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    id: 14,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    id: 15,
+    name: "HTML5",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png",
+    redirect: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+];

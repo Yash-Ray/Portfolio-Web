@@ -51,7 +51,7 @@ function Home() {
                 <div className="text3 font-extrabold md:font-extrabold pr-6 bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">Bonjour</div>
               </div>
             </div>
-            <div className="text-center sm:text-left w-full md:py-6 break-words text-sm sm:text-lg lg:text-xl">
+            <div className="text-center sm:text-justify w-full md:py-6 break-words text-sm sm:text-lg lg:text-xl">
               I'm <span className='bg-clip-text text-transparent font-semibold text-xl md:text-3xl bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500'>Yash Ray</span>, Computer Science and Engineering junior at <span>Vellore
               Institure of Technology, Vellore</span>. Resident of Jamshedpur,
               Jharkhand, I've completed my schooling from <span>Loyola School,
@@ -136,14 +136,14 @@ function Home() {
                         <FaGithub className="text-2xl group-hover:text-pink-dark transition duration-700 ease-in-out lg:text-3xl" />
                       </div>
                     </a>
-                    <a className="">
+                    <button>
                       <div
                         onClick={openModal}
                         className="cursor-pointer p-2 m-2 md:m-4 group text-lg"
                       >
                         <FaSnapchatGhost className="text-2xl group-hover:text-sc-yellow transition duration-700 ease-in-out lg:text-3xl" />
                       </div>
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
