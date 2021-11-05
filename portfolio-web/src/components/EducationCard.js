@@ -6,7 +6,7 @@ import { FiPercent } from "react-icons/fi";
 function EducationCard({ level, location, duration, score }) {
   return (
     <div className="flex flex-col neumorphic p-4 m-4 lg:p-8 rounded-lg">
-      <div className="text-xl sm:text-2xl lg:text-3xl w-full text-center hover:text-blue-mid transition duration-700 ease-in-out">
+      <div className="text-xl sm:text-2xl lg:text-3xl w-full text-center hover:text-blue-dark text-blue-mid transition duration-700 ease-in-out">
         {level}
       </div>
       <div className="py-4 mt-4 flex flex-col h-full justify-center">

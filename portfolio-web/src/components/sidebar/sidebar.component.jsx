@@ -11,7 +11,7 @@ export const Sidebar = () => (
   <div className="sidebar-left text-light-sub p-20 pt-60 flex flex-col justify-between items-start">
     <div className="w-full">
       <Link to="/">
-        <div className="element-sidebar w-90 mb-4 p-2 px-4 sm:p-4 my-6 mx-auto flex flex-row items-center hover:text-orange-mid transition duration-700 ease-in-out text-base sm:text-lg">
+        <div className="element-sidebar w-90 mb-4 p-2 px-4 sm:p-4 my-6 mx-auto flex flex-row items-center hover:text-red-500 transition duration-700 ease-in-out text-base sm:text-lg">
           <FaHome className="mr-2" /> HOME
         </div>
       </Link>
