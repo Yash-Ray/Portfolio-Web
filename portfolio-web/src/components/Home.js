@@ -2,10 +2,17 @@ import React, { Fragment, useEffect, useState } from "react";
 import dp from "../assets/YashRay.png";
 import gsap from "gsap";
 import "../stylesheets/style.scss";
-import { FaWhatsapp, FaGithub, FaLinkedin, FaInstagram, FaSnapchatGhost } from "react-icons/fa";
+import {
+  FaWhatsapp,
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaSnapchatGhost,
+} from "react-icons/fa";
 import { Dialog, Transition } from "@headlessui/react";
 import { CgClose } from "react-icons/cg";
 import { FiMail } from "react-icons/fi";
+import { AiOutlineFilePdf } from "react-icons/ai";
 import sc from "../assets/sc_id.png";
 
 function Home() {
@@ -30,28 +37,41 @@ function Home() {
 
   return (
     <>
-      <div className="text-white m-2 sm:m-4 lg:m-6 z-10">
+      <div className="text-white m-2 sm:m-4 lg:m-6 lg:mb-2 z-10 md:h-5/6">
         <div className="neumorphic rounded-lg p-4 h-full flex flex-col-reverse md:flex-row justify-center items-start">
-          <div className="mx-2 flex flex-col justify-center w-full h-full md:w-2/3 text-center md:text-left py-8">
+          <div className="mx-2 ml-0 sm:ml-2 py-2 flex flex-col justify-center w-full h-full md:w-2/3 text-center md:text-left sm:py-8">
             <div className="anim-txt w-1/4 hidden sm:block py-6">
               <div className="hello">
-                <div className="text pr-4">Hello</div>
+                <div className="text font-extrabold md:font-extrabold pr-4 bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">Hello</div>
               </div>
               <div className="hello">
-                <div className="text2 pr-6">नमस्ते</div>
+                <div className="text2 md:font-bold pr-6 bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">नमस्ते</div>
               </div>
               <div className="hello">
-                <div className="text3 pr-6">Bonjour</div>
+                <div className="text3 font-extrabold md:font-extrabold pr-6 bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">Bonjour</div>
               </div>
             </div>
-            <div className="text-center sm:text-left w-full break-words text-base sm:text-lg lg:text-xl">
-              I'm Yash Ray, Computer Science and Engineering junior at Vellore
-              Institure of Technology, Vellore. 
+            <div className="text-center sm:text-left w-full md:py-6 break-words text-sm sm:text-lg lg:text-xl">
+              I'm <span className='bg-clip-text text-transparent font-semibold text-xl md:text-3xl bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500'>Yash Ray</span>, Computer Science and Engineering junior at <span>Vellore
+              Institure of Technology, Vellore</span>. Resident of Jamshedpur,
+              Jharkhand, I've completed my schooling from <span>Loyola School,
+              Jamshedpur</span>. Currently Interning at <span>Credanic Solutions</span> as an SDE
+              Intern and upcoming research Intern at Samsung R&D, I'm also a member of <span>IEEE Computer Society VIT</span>. You can find
+              me on my laptop, either building stuff, or casually grinding
+              <span> eSports</span>.
+            </div>
+            <div className="neumorphic md:w-1/2 lg:w-3/4 xl:w-1/4 mt-4 md:my-8 group">
+              <a href="https://drive.google.com/uc?id=1m7rT-gUOmzZQAPHoI4yVRz3u_YrJA2RE&export=download">
+                <div className="flex flex-row p-2 md:py-4 justify-center items-center text-base sm:text-lg md:text-xl">
+                  <AiOutlineFilePdf className='text-xl md:text-3xl mr-2 group-hover:text-mail-red transition-all duration-500 ease-in-out'/>
+                  Download Resume
+                </div>
+              </a>
             </div>
           </div>
           {/* profile card here */}
-          <div className="m-2 flex justify-center mx-auto w-1/3 md:w-1/3">
-            <div className="neumorphic py-4 flex flex-col justify-center rounded-md items-center px-0 sm:px-4">
+          <div className="m-2 flex justify-center items-center mx-auto w-1/3 h-full">
+            <div className="neumorphic py-4 flex flex-col justify-center rounded-md items-center xl:h-2/3 px-0 sm:px-4">
               <div className="h-60 w-60 mx-4 flex justify-center md:mx-0">
                 <img
                   className="rounded-md h-full"
@@ -62,68 +82,68 @@ function Home() {
               <div className="mt-0 sm:mt-2 w-full flex flex-col px-2">
                 <div className="flex flex-col w-full justify-around items-center">
                   {/* 1st div starts */}
-                  <div className='w-full flex flex-row justify-around'>
-                  <a
-                    href="https://api.whatsapp.com/send?phone=918210112958"
-                    target="_blank"
-                    rel="noreferrer"
-                    alt="git-acc"
-                  >
-                    <div className="p-2 m-2 md:m-4 hover:text-wa-green transition duration-700 ease-in-out text-base sm:text-lg">
-                      <FaWhatsapp className="text-2xl lg:text-3xl" />
-                    </div>
-                  </a>
-                  <a
-                    href="mailto:ray.yash.08@gmail.com"
-                    target="_blank"
-                    rel="noreferrer"
-                    alt="git-acc"
-                  >
-                    <div className="p-2 m-2 md:m-4 hover:text-mail-red transition duration-700 ease-in-out text-base sm:text-lg">
-                      <FiMail className="text-2xl lg:text-3xl" />
-                    </div>
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/yash-ray-cri80vt/"
-                    target="_blank"
-                    rel="noreferrer"
-                    alt="git-acc"
-                  >
-                    <div className="p-2 m-2 md:m-4 hover:text-ln-blue transition duration-700 ease-in-out text-base sm:text-lg">
-                      <FaLinkedin className="text-2xl lg:text-3xl" />
-                    </div>
-                  </a>
+                  <div className="w-full flex flex-row justify-around">
+                    <a
+                      href="https://api.whatsapp.com/send?phone=918210112958"
+                      target="_blank"
+                      rel="noreferrer"
+                      alt="git-acc"
+                    >
+                      <div className="p-2 m-2 md:m-4 group text-base sm:text-lg">
+                        <FaWhatsapp className="text-2xl group-hover:text-wa-green transition duration-700 ease-in-out lg:text-3xl" />
+                      </div>
+                    </a>
+                    <a
+                      href="mailto:ray.yash.08@gmail.com"
+                      target="_blank"
+                      rel="noreferrer"
+                      alt="git-acc"
+                    >
+                      <div className="p-2 m-2 md:m-4 group text-base sm:text-lg">
+                        <FiMail className="text-2xl lg:text-3xl group-hover:text-mail-red transition duration-700 ease-in-out" />
+                      </div>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/yash-ray-cri80vt/"
+                      target="_blank"
+                      rel="noreferrer"
+                      alt="git-acc"
+                    >
+                      <div className="p-2 m-2 md:m-4 group text-base sm:text-lg">
+                        <FaLinkedin className="text-2xl group-hover:text-ln-blue transition duration-700 ease-in-out lg:text-3xl" />
+                      </div>
+                    </a>
                   </div>
                   {/* 2nd div starts */}
-                  <div className='w-full flex flex-row justify-around'>
-                  <a
-                    href="https://www.instagram.com/yashray_08/"
-                    target="_blank"
-                    rel="noreferrer"
-                    alt="git-acc"
-                  >
-                    <div className="p-2 m-2 md:m-4 hover:text-ig-purple transition duration-700 ease-in-out text-base sm:text-lg">
-                      <FaInstagram className="text-2xl lg:text-3xl" />
-                    </div>
-                  </a>
-                  <a
-                    href="https://github.com/Yash-Ray"
-                    target="_blank"
-                    rel="noreferrer"
-                    alt="git-acc"
-                  >
-                    <div className="p-2 m-2 md:m-4 hover:text-pink-500 transition duration-700 ease-in-out text-base sm:text-lg">
-                      <FaGithub className="text-2xl lg:text-3xl" />
-                    </div>
-                  </a>
-                  <a className=''>
-                  <div
-                    onClick={openModal}
-                    className="cursor-pointer p-2 m-2 md:m-4 hover:text-sc-yellow transition duration-700 ease-in-out text-lg"
-                  >
-                    <FaSnapchatGhost className="text-2xl lg:text-3xl" />
-                  </div>
-                  </a>
+                  <div className="w-full flex flex-row justify-around">
+                    <a
+                      href="https://www.instagram.com/yashray_08/"
+                      target="_blank"
+                      rel="noreferrer"
+                      alt="git-acc"
+                    >
+                      <div className="p-2 m-2 md:m-4 group text-base sm:text-lg">
+                        <FaInstagram className="text-2xl group-hover:text-ig-purple transition duration-700 ease-in-out lg:text-3xl" />
+                      </div>
+                    </a>
+                    <a
+                      href="https://github.com/Yash-Ray"
+                      target="_blank"
+                      rel="noreferrer"
+                      alt="git-acc"
+                    >
+                      <div className="p-2 m-2 md:m-4 group text-base sm:text-lg">
+                        <FaGithub className="text-2xl group-hover:text-pink-dark transition duration-700 ease-in-out lg:text-3xl" />
+                      </div>
+                    </a>
+                    <a className="">
+                      <div
+                        onClick={openModal}
+                        className="cursor-pointer p-2 m-2 md:m-4 group text-lg"
+                      >
+                        <FaSnapchatGhost className="text-2xl group-hover:text-sc-yellow transition duration-700 ease-in-out lg:text-3xl" />
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -184,7 +204,7 @@ function Home() {
                   </button>
                 </div>
                 <div className="mt-2 flex justify-center">
-                  <img src={sc} alt='scId' className='h-72' />
+                  <img src={sc} alt="scId" className="h-72" />
                 </div>
 
                 <div className="mt-4 flex justify-center">
