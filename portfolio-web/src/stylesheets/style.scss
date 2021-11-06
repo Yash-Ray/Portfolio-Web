@@ -1,5 +1,9 @@
 $primary-dark: #1a1a1a;
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
 .element-sidebar {
   border-radius: 15px;
   background: $primary-dark;

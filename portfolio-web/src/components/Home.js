@@ -11,9 +11,11 @@ import {
 } from "react-icons/fa";
 import { Dialog, Transition } from "@headlessui/react";
 import { CgClose } from "react-icons/cg";
+import { BsArrowRightShort } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 import { AiOutlineFilePdf } from "react-icons/ai";
 import sc from "../assets/sc_id.png";
+import { Link } from 'react-router-dom';
 
 function Home() {
   useEffect(() => {
@@ -39,7 +41,7 @@ function Home() {
     <>
       <div className="text-white m-2 sm:m-4 lg:m-6 lg:mb-2 z-10 md:h-5/6">
         <div className="neumorphic rounded-lg p-4 h-full flex flex-col-reverse md:flex-row justify-center items-start">
-          <div className="mx-2 ml-0 sm:ml-2 py-2 flex flex-col justify-center w-full h-full md:w-2/3 text-center md:text-left sm:py-8">
+          <div className="mx-2 ml-0 sm:ml-2 py-2 flex flex-col justify-center w-full h-full md:w-2/3 text-center md:text-left sm:py-8 sm:pb-2">
             <div className="anim-txt w-1/4 hidden sm:block py-6">
               <div className="hello">
                 <div className="text font-extrabold md:font-extrabold pr-4 bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
@@ -65,9 +67,14 @@ function Home() {
                 </span>
                 , a Front-End Web Developer pursuing Computer Science and
                 Engineering at{" "}
-                <span>Vellore Institure of Technology, Vellore</span>. Resident
-                of Jamshedpur, Jharkhand, I've completed my schooling from{" "}
-                <span>Loyola School, Jamshedpur</span>.
+                <span className="hover:text-ln-blue transition-all duration-500 ease-in-out">
+                  Vellore Institure of Technology, Vellore.
+                </span>{" "}
+                Resident of Jamshedpur, Jharkhand, I've completed my schooling
+                from{" "}
+                <span className="hover:text-pink-600 transition-all duration-500 ease-in-out">
+                  Loyola School, Jamshedpur.
+                </span>{" "}
               </div>
               <div className="hidden sm:block">
                 I'm{" "}
@@ -76,23 +83,46 @@ function Home() {
                 </span>
                 , a Front-End Web Developer pursuing Computer Science and
                 Engineering at{" "}
-                <span>Vellore Institure of Technology, Vellore</span>. Resident
-                of Jamshedpur, Jharkhand, I've completed my schooling from{" "}
-                <span>Loyola School, Jamshedpur</span>. Currently Interning at{" "}
-                <span>Credanic Solutions</span> as an SDE Intern and upcoming
-                Research Intern at Samsung R&D Institute, Bangalore. I'm also a
-                member of <span>IEEE Computer Society VIT</span>. You can find
-                me on my laptop, either building stuff, or casually grinding
-                <span> eSports</span>.
+                <span className="hover:text-ln-blue transition-all duration-500 ease-in-out">
+                  Vellore Institure of Technology, Vellore.
+                </span>{" "}
+                Resident of Jamshedpur, Jharkhand, I've completed my schooling
+                from{" "}
+                <span className="hover:text-pink-600 transition-all duration-500 ease-in-out">
+                  Loyola School, Jamshedpur.
+                </span>{" "}
+                Currently Interning at Credanic Solutions as an SDE Intern and
+                upcoming Research Intern at Samsung R&D Institute, Bangalore.
+                I'm also a member of{" "}
+                <span className="hover:text-yellow-500 transition-all duration-500 ease-in-out">
+                  IEEE Computer Society VIT.
+                </span>{" "}
+                You can find me on my laptop, either building stuff, or casually
+                grinding
+                <span className="hover:text-red-500 transition-all duration-500 ease-in-out">
+                  {" "}
+                  eSports
+                </span>
+                .
               </div>
             </div>
-            <div className="neumorphic hidden md:block md:w-1/2 lg:w-3/4 xl:w-1/4 mt-4 md:my-8 group">
-              <a href="https://drive.google.com/uc?id=1EmFyNhA0tRYOQnJtAz5dsaByx7O97fXR&export=download">
-                <div className="flex flex-row p-2 md:py-4 justify-center items-center text-base sm:text-lg md:text-xl">
-                  <AiOutlineFilePdf className="text-xl md:text-3xl mr-2 group-hover:text-mail-red transition-all duration-500 ease-in-out" />
-                  Download Resume
-                </div>
-              </a>
+            <div className='flex flex-col md:flex-row justify-start'>
+              <div className="neumorphic rounded-md md:mr-4 hidden md:block md:w-1/2 lg:w-3/4 xl:w-1/4 mt-4 sm:mb-4 group">
+                <a href="https://drive.google.com/uc?id=1EmFyNhA0tRYOQnJtAz5dsaByx7O97fXR&export=download">
+                  <div className="flex flex-row p-2 md:py-4 justify-center items-center text-base sm:text-lg md:text-xl">
+                    <AiOutlineFilePdf className="text-xl md:text-3xl mr-2 group-hover:text-mail-red transition-all duration-500 ease-in-out" />
+                    Download Resume
+                  </div>
+                </a>
+              </div>
+              <div className="neumorphic rounded-md md:mr-4 md:w-1/2 lg:w-3/4 xl:w-1/4 mt-4 sm:mb-4 group text-green-dark md:text-white md:hover:text-green-dark transition-all duration-500 ease-in-out">
+                <Link to='/projects'>
+                  <div className="flex flex-row items-center p-2 md:py-4 justify-center h-full text-base sm:text-lg md:text-xl">
+                    My Projects
+                    <BsArrowRightShort className='text-xl md:text-3xl ml-2' />
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
           {/* profile card here */}
