@@ -58,22 +58,36 @@ function Home() {
               </div>
             </div>
             <div className="text-center sm:text-left lg:text-justify w-full md:py-6 break-words text-sm sm:text-lg lg:text-xl">
-              I'm{" "}
-              <span className="bg-clip-text text-transparent font-semibold text-xl md:text-3xl bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
-                Yash Ray
-              </span>
-              , a Front-End Web Developer pursuing Computer Science and Engineering at{" "}
-              <span>Vellore Institure of Technology, Vellore</span>. Resident of
-              Jamshedpur, Jharkhand, I've completed my schooling from{" "}
-              <span>Loyola School, Jamshedpur</span>. Currently Interning at{" "}
-              <span>Credanic Solutions</span> as an SDE Intern and upcoming
-              research Intern at Samsung R&D Institute, Bangalore. I'm also a member of{" "}
-              <span>IEEE Computer Society VIT</span>. You can find me on my
-              laptop, either building stuff, or casually grinding
-              <span> eSports</span>.
+              <div className="sm:hidden">
+                I'm{" "}
+                <span className="bg-clip-text text-transparent font-semibold text-xl md:text-3xl bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
+                  Yash Ray
+                </span>
+                , a Front-End Web Developer pursuing Computer Science and
+                Engineering at{" "}
+                <span>Vellore Institure of Technology, Vellore</span>. Resident
+                of Jamshedpur, Jharkhand, I've completed my schooling from{" "}
+                <span>Loyola School, Jamshedpur</span>.
+              </div>
+              <div className="hidden sm:block">
+                I'm{" "}
+                <span className="bg-clip-text text-transparent font-semibold text-xl md:text-3xl bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
+                  Yash Ray
+                </span>
+                , a Front-End Web Developer pursuing Computer Science and
+                Engineering at{" "}
+                <span>Vellore Institure of Technology, Vellore</span>. Resident
+                of Jamshedpur, Jharkhand, I've completed my schooling from{" "}
+                <span>Loyola School, Jamshedpur</span>. Currently Interning at{" "}
+                <span>Credanic Solutions</span> as an SDE Intern and upcoming
+                Research Intern at Samsung R&D Institute, Bangalore. I'm also a
+                member of <span>IEEE Computer Society VIT</span>. You can find
+                me on my laptop, either building stuff, or casually grinding
+                <span> eSports</span>.
+              </div>
             </div>
-            <div className="neumorphic md:w-1/2 lg:w-3/4 xl:w-1/4 mt-4 md:my-8 group">
-              <a href="https://drive.google.com/uc?id=1m7rT-gUOmzZQAPHoI4yVRz3u_YrJA2RE&export=download">
+            <div className="neumorphic hidden md:block md:w-1/2 lg:w-3/4 xl:w-1/4 mt-4 md:my-8 group">
+              <a href="https://drive.google.com/uc?id=1EmFyNhA0tRYOQnJtAz5dsaByx7O97fXR&export=download">
                 <div className="flex flex-row p-2 md:py-4 justify-center items-center text-base sm:text-lg md:text-xl">
                   <AiOutlineFilePdf className="text-xl md:text-3xl mr-2 group-hover:text-mail-red transition-all duration-500 ease-in-out" />
                   Download Resume
@@ -156,6 +170,16 @@ function Home() {
                         <FaSnapchatGhost className="text-2xl group-hover:text-sc-yellow transition duration-700 ease-in-out lg:text-3xl" />
                       </div>
                     </button>
+                  </div>
+                  <div className="block md:hidden w-full">
+                    <div className="neumorphic md:w-1/2 rounded-md mx-2 lg:w-3/4 xl:w-1/4 mt-4 md:my-8 group">
+                      <a href="https://drive.google.com/uc?id=1EmFyNhA0tRYOQnJtAz5dsaByx7O97fXR&export=download">
+                        <div className="flex flex-row p-2 md:py-4 justify-center items-center text-base sm:text-lg md:text-xl">
+                          <AiOutlineFilePdf className="text-xl md:text-3xl mr-2 group-hover:text-mail-red transition-all duration-500 ease-in-out" />
+                          Download Resume
+                        </div>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>

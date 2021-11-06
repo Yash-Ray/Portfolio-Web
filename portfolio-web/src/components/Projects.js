@@ -7,7 +7,7 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
   return (
     <>
-      <div className="text-white m-2 sm:m-4 lg:m-6 lg:mb-2 z-10 h-5/6">
+      <div className="text-white m-2 sm:m-4 lg:m-6 lg:mb-2 z-10">
         <div className="neumorphic rounded-lg p-4 h-full flex flex-col">
           <div className="text-2xl sm:text-3xl lg:text-4xl w-full text-center self-start cursor-default">
             <span className="text-green-dark hover:text-wa-green transition duration-700 ease-in-out">
@@ -33,7 +33,7 @@ function Projects() {
                 My Works
               </span>
             </div>
-            <div className='border p-4'>
+            <div className='border p-4 flex flex-wrap flex-row justify-center'>
               {
                 project.map((e) => {
                   return <ProjectCard data={e} />
