@@ -15,7 +15,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 import { AiOutlineFilePdf } from "react-icons/ai";
 import sc from "../assets/sc_id.png";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Home() {
   useEffect(() => {
@@ -72,7 +72,7 @@ function Home() {
                 </span>{" "}
                 Resident of Jamshedpur, Jharkhand, I've completed my schooling
                 from{" "}
-                <span className="hover:text-pink-600 transition-all duration-500 ease-in-out">
+                <span className="hover:text-pink-500 transition-all duration-500 ease-in-out">
                   Loyola School, Jamshedpur.
                 </span>{" "}
               </div>
@@ -88,11 +88,14 @@ function Home() {
                 </span>{" "}
                 Resident of Jamshedpur, Jharkhand, I've completed my schooling
                 from{" "}
-                <span className="hover:text-pink-600 transition-all duration-500 ease-in-out">
+                <span className="hover:text-pink-500 transition-all duration-500 ease-in-out">
                   Loyola School, Jamshedpur.
                 </span>{" "}
                 Currently Interning at Credanic Solutions as an SDE Intern and
-                upcoming Research Intern at Samsung R&D Institute, Bangalore.
+                upcoming Research Intern at{" "}
+                <span className="hover:text-indigo-600 transition-all duration-500 ease-in-out">
+                  Samsung R&D Institute, Bangalore.
+                </span>
                 I'm also a member of{" "}
                 <span className="hover:text-yellow-500 transition-all duration-500 ease-in-out">
                   IEEE Computer Society VIT.
@@ -106,7 +109,7 @@ function Home() {
                 .
               </div>
             </div>
-            <div className='flex flex-col md:flex-row justify-start'>
+            <div className="flex flex-col md:flex-row justify-start">
               <div className="neumorphic rounded-md md:mr-4 hidden md:block md:w-1/2 lg:w-3/4 xl:w-1/4 mt-4 sm:mb-4 group">
                 <a href="https://drive.google.com/uc?id=1EmFyNhA0tRYOQnJtAz5dsaByx7O97fXR&export=download">
                   <div className="flex flex-row p-2 md:py-4 justify-center items-center text-base sm:text-lg md:text-xl">
@@ -116,10 +119,10 @@ function Home() {
                 </a>
               </div>
               <div className="neumorphic rounded-md md:mr-4 md:w-1/2 lg:w-3/4 xl:w-1/4 mt-4 sm:mb-4 group text-green-dark md:text-white md:hover:text-green-dark transition-all duration-500 ease-in-out">
-                <Link to='/projects'>
+                <Link to="/projects">
                   <div className="flex flex-row items-center p-2 md:py-4 justify-center h-full text-base sm:text-lg md:text-xl">
                     My Projects
-                    <BsArrowRightShort className='text-xl md:text-3xl ml-2' />
+                    <BsArrowRightShort className="text-xl md:text-3xl ml-2" />
                   </div>
                 </Link>
               </div>
@@ -253,7 +256,7 @@ function Home() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div className="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-light-sub shadow-xl rounded-md">
+              <div className="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-md">
                 <div className="flex flex-row justify-between">
                   <Dialog.Title
                     as="h3"
