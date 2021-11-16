@@ -44,7 +44,7 @@ export const project = [
   {
     key: 7,
     name: "Glass type Detector",
-    desc: "Implementation of ML Algorithm K-nn from scratch to determins a type of glass based on multiple parameters from a dataset.",
+    desc: "Implementation of ML Algorithm K-nn from scratch to determines a type of glass based on multiple parameters from a dataset.",
     stack: "Python, Jupyter Notebook",
     link: "https://github.com/Yash-Ray/Glass-Type-Detection",
   },
