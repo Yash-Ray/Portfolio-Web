@@ -91,12 +91,11 @@ function Home() {
                 <span className="hover:text-pink-500 transition-all duration-500 ease-in-out">
                   Loyola School, Jamshedpur.
                 </span>{" "}
-                Currently Interning at Credanic Solutions as an SDE Intern and
-                upcoming Research Intern at{" "}
+                Currently Interning at{" "}
                 <span className="hover:text-indigo-600 transition-all duration-500 ease-in-out">
                   Samsung R&D Institute, Bangalore.
-                </span>
-                I'm also a member of{" "}
+                </span>{" "}as a Research Intern. {" "}
+                I'm also the Joint Secretary of{" "}
                 <span className="hover:text-yellow-500 transition-all duration-500 ease-in-out">
                   IEEE Computer Society VIT.
                 </span>{" "}
