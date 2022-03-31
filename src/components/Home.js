@@ -110,7 +110,7 @@ function Home() {
             </div>
             <div className="flex flex-col md:flex-row justify-start">
               <div className="neumorphic rounded-md md:mr-4 hidden md:block md:w-1/2 lg:w-3/4 xl:w-1/4 mt-4 sm:mb-4 group">
-                <a href="https://drive.google.com/uc?id=1WgJB1pi-g73VlJIwmDJ3gOUv8gF-rem1&export=download">
+                <a href="https://drive.google.com/uc?id=1SJTp2LRSlIao64SvoR0LKkm8RQHe0u2N&export=download">
                   <div className="flex flex-row p-2 md:py-4 justify-center items-center text-base sm:text-lg md:text-xl">
                     <AiOutlineFilePdf className="text-xl md:text-3xl mr-2 group-hover:text-mail-red transition-all duration-500 ease-in-out" />
                     Download Resume
