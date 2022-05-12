@@ -99,7 +99,7 @@ function Home() {
                 <span className="hover:text-yellow-500 transition-all duration-500 ease-in-out">
                   IEEE Computer Society VIT.
                 </span>{" "}
-                You can find me on my laptop, either building stuff, or casually
+                You can find me near my laptop, either building stuff, or casually
                 grinding
                 <span className="hover:text-red-500 transition-all duration-500 ease-in-out">
                   {" "}
