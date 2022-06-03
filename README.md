@@ -1,6 +1,6 @@
 <h1 align='center'><a target='_blank' href='https://www.yashray.tech/'>Yash Ray</a></h1>
 <br>
-<p>Hello there 👋,<br> I'm a Final Year CSE UnderGrad at VIT Vellore, member of IEEE Computer Society, VIT and Research Intern at Samsung Research Institute, Bangalore. Starting off my life at Jamshedpur, Jharkhand, I completed my schooling from Loyola School, Jamshedpur. After learning and working on a number of tech, here it finally is...<br><br><b>My Portfolio Website at : <code><a href='https://www.yashray.tech/'>yashray.co</a></code></b></p>
+<p>Hello there 👋,<br> I'm a Final Year CSE UnderGrad at VIT Vellore, member of IEEE Computer Society, VIT and Research Intern at Samsung Research Institute, Bangalore. Starting off my life at Jamshedpur, Jharkhand, I completed my schooling from Loyola School, Jamshedpur. After learning and working on a number of tech, here it finally is...<br><br><b>My Portfolio Website at : <code><a href='https://www.yashray.tech/'>yashray.tech</a></code></b></p>
 
 <kbd><a href='https://www.yashray.tech/'><img style='border-radius:20px' src='https://github.com/Yash-Ray/Portfolio-Web/blob/master/Screenshots/Screenshot%20(433).png?raw=true' /></a></kbd>
 
