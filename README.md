@@ -1,8 +1,8 @@
-<h1 align='center'><a target='_blank' href='https://www.yashray.co/'>Yash Ray</a></h1>
+<h1 align='center'><a target='_blank' href='https://www.yashray.tech/'>Yash Ray</a></h1>
 <br>
-<p>Hello there 👋,<br> I'm a CSE Junior at VIT Vellore, member of IEEE Computer Society, VIT and upcoming Research Intern at Samsung R&D, Bangalore. Starting off my life at Jamshedpur, Jharkhand, I completed my schooling from Loyola School, Jamshedpur. After learning and working on a number of tech, here it finally is...<br><br><b>My Portfolio Website at : <a href='https://www.yashray.co/'>yashray.co</a></b></p>
+<p>Hello there 👋,<br> I'm a Final Year CSE UnderGrad at VIT Vellore, member of IEEE Computer Society, VIT and Research Intern at Samsung Research Institute, Bangalore. Starting off my life at Jamshedpur, Jharkhand, I completed my schooling from Loyola School, Jamshedpur. After learning and working on a number of tech, here it finally is...<br><br><b>My Portfolio Website at : <code><a href='https://www.yashray.tech/'>yashray.co</a></code></b></p>
 
-<kbd><img style='border-radius:20px' src='https://github.com/Yash-Ray/Portfolio-Web/blob/master/Screenshots/Screenshot%20(433).png?raw=true' /></kbd>
+<kbd><a href='https://www.yashray.tech/'><img style='border-radius:20px' src='https://github.com/Yash-Ray/Portfolio-Web/blob/master/Screenshots/Screenshot%20(433).png?raw=true' /></a></kbd>
 
 <h3>Tech Stack Used:</h3>
 <p>
@@ -13,4 +13,8 @@
 <p><img hspace=5 src='https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white'/><img hspace=5 src='https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white'/><img hspace=5 src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white'/></p>
 
 <h3>Hosting:</h3>
-<p valign='center'><img hspace=5 src='https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white'/> <img height=50 width=50 src='https://porkbun.com/images/porkbun-logo-1200x1200.png'/></p>
+<p valign='center'><img hspace=5 src='https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7'/> <img height=30 width=60 src='http://csus.cpsc.ucalgary.ca/wp-content/uploads/2020/02/tech-logo.jpg'/>
+</p>
+
+<h3>SSL Certification:</h3>
+<img hspace=5 src='https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white'/>
