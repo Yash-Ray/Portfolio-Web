@@ -91,9 +91,9 @@ function Home() {
                 <span className="hover:text-pink-500 transition-all duration-500 ease-in-out">
                   Loyola School, Jamshedpur.
                 </span>{" "}
-                Currently Interning at{" "}
+                I'm currently Interning at{" "}
                 <span className="hover:text-hpe-green transition-all duration-500 ease-in-out">
-                  Hewlett Packard Enterprise.
+                  Hewlett Packard Enterprise
                 </span>{" "}as a Research Intern. {" "}
                 After work, You can find me near my laptop, either learning new Tech, or casually
                 grinding
