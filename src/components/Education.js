@@ -28,7 +28,7 @@ function Education() {
               level="B. Tech. CSE"
               location="Vellore Institue of Technology, Vellore"
               duration="2019 - Present"
-              score="8.80 CGPA"
+              score="8.65 CGPA"
             />
           </div>
         </div>
