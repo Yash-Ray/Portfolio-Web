@@ -25,6 +25,7 @@ module.exports = {
         "ig-pred":"#E1306C",
         "mail-red":"#BB0010",
         "ln-blue":"#0072b1",
+        "hpe-green":"#00b388",
       },
       height: {
         nav: "95.8%",
