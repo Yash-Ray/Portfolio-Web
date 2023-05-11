@@ -94,7 +94,7 @@ function Home() {
                 I'm currently Interning at{" "}
                 <span className="hover:text-hpe-green transition-all duration-500 ease-in-out">
                   Hewlett Packard Enterprise
-                </span>{" "}as a Research Intern. {" "}
+                </span>{" "}as a Research and Development Intern. {" "}
                 After work, You can find me near my laptop, either learning new Tech, or casually
                 grinding
                 <span className="hover:text-red-500 transition-all duration-500 ease-in-out">
