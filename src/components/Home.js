@@ -65,7 +65,7 @@ function Home() {
                 <span className="bg-clip-text text-transparent font-semibold text-xl md:text-3xl bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
                   Yash Ray
                 </span>
-                , a Front-End Web Developer pursuing Computer Science and
+                , Final Year Bachelors student of Computer Science and
                 Engineering at{" "}
                 <span className="hover:text-ln-blue transition-all duration-500 ease-in-out">
                   Vellore Institure of Technology, Vellore.
@@ -81,7 +81,7 @@ function Home() {
                 <span className="bg-clip-text text-transparent font-semibold text-xl md:text-3xl bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
                   Yash Ray
                 </span>
-                , a Front-End Web Developer pursuing Computer Science and
+                , A Final Year Bachelors student of Computer Science and
                 Engineering at{" "}
                 <span className="hover:text-ln-blue transition-all duration-500 ease-in-out">
                   Vellore Institure of Technology, Vellore.
@@ -92,14 +92,10 @@ function Home() {
                   Loyola School, Jamshedpur.
                 </span>{" "}
                 Currently Interning at{" "}
-                <span className="hover:text-indigo-600 transition-all duration-500 ease-in-out">
-                  Samsung R&D Institute, Bangalore.
+                <span className="hover:text-hpe-green transition-all duration-500 ease-in-out">
+                  Hewlett Packard Enterprise.
                 </span>{" "}as a Research Intern. {" "}
-                I'm also the Joint Secretary of{" "}
-                <span className="hover:text-yellow-500 transition-all duration-500 ease-in-out">
-                  IEEE Computer Society VIT.
-                </span>{" "}
-                You can find me near my laptop, either building stuff, or casually
+                After work, You can find me near my laptop, either learning new Tech, or casually
                 grinding
                 <span className="hover:text-red-500 transition-all duration-500 ease-in-out">
                   {" "}
@@ -110,7 +106,7 @@ function Home() {
             </div>
             <div className="flex flex-col md:flex-row justify-start">
               <div className="neumorphic rounded-md md:mr-4 hidden md:block md:w-1/2 lg:w-3/4 xl:w-1/4 mt-4 sm:mb-4 group">
-                <a href="https://drive.google.com/uc?id=1GFYfOEmaPt3YuhU3l679JzqTI7hl8voO&export=download">
+                <a href="https://drive.google.com/uc?id=1aXKNLNcae7Jq4KumpQIBV9TlfYNMZ2hE&export=download">
                   <div className="flex flex-row p-2 md:py-4 justify-center items-center text-base sm:text-lg md:text-xl">
                     <AiOutlineFilePdf className="text-xl md:text-3xl mr-2 group-hover:text-mail-red transition-all duration-500 ease-in-out" />
                     Download Resume
@@ -205,7 +201,7 @@ function Home() {
                   </div>
                   <div className="block md:hidden w-full">
                     <div className="neumorphic md:w-1/2 rounded-md mx-2 lg:w-3/4 xl:w-1/4 mt-4 md:my-8 group">
-                      <a href="https://drive.google.com/uc?id=1EmFyNhA0tRYOQnJtAz5dsaByx7O97fXR&export=download">
+                      <a href="https://drive.google.com/uc?id=1aXKNLNcae7Jq4KumpQIBV9TlfYNMZ2hE&export=download">
                         <div className="flex flex-row p-2 md:py-4 justify-center items-center text-base sm:text-lg md:text-xl">
                           <AiOutlineFilePdf className="text-xl md:text-3xl mr-2 group-hover:text-mail-red transition-all duration-500 ease-in-out" />
                           Download Resume
