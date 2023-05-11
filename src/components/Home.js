@@ -91,7 +91,7 @@ function Home() {
                 <span className="hover:text-pink-500 transition-all duration-500 ease-in-out">
                   Loyola School, Jamshedpur.
                 </span>{" "}
-                I'm currently Interning at{" "}
+                I'm currently employed at{" "}
                 <span className="hover:text-hpe-green transition-all duration-500 ease-in-out">
                   Hewlett Packard Enterprise
                 </span>{" "}as a Research and Development Intern. {" "}
